@@ -1,6 +1,6 @@
 # homebrew-nhwatcher
 
-Homebrew tap for [NH Watcher](https://github.com/pneumaticdeath/NHWatcher) — a macOS screensaver that displays live NetHack games from nethack.alt.org.
+Homebrew tap for [NH Watcher](https://github.com/pneumaticdeath/NHWatcher) — a macOS screensaver that displays live NetHack games from public nethack servers.
 
 ## Installation
 
