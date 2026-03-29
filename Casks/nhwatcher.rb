@@ -1,6 +1,6 @@
 cask "nhwatcher" do
-  version "0.2.0"
-  sha256 "d2fe9be4d08f17f99a9be06a9ed7ec2e309248f2e82e19fffb95313e97b0ecc8"
+  version "0.2.2"
+  sha256 "6c9c57a9e71ff07741ad36553ffa2e4e1a1438d454f757a4378f6e117fde25bf"
 
   url "https://github.com/pneumaticdeath/NHWatcher/releases/download/v#{version}/NHWatcher-#{version}.saver.zip"
   name "NH Watcher"
