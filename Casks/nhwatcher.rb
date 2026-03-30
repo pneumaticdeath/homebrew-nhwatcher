@@ -8,7 +8,6 @@ cask "nhwatcher" do
   homepage "https://github.com/pneumaticdeath/NHWatcher"
 
   depends_on macos: ">= :ventura"
-  no_quarantine true
 
   screen_saver "NHWatcher.saver"
 
