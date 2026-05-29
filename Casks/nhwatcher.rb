@@ -11,6 +11,12 @@ cask "nhwatcher" do
 
   screen_saver "NHWatcher.saver"
 
+  postflight do
+    system_command "/usr/bin/xattr",
+                   args: ["-cr", "#{ENV["HOME"]}/Library/Screen Savers/NHWatcher.saver"],
+                   sudo: false
+  end
+
   uninstall delete: "#{ENV["HOME"]}/Library/Screen Savers/NHWatcher.saver"
 
   zap trash: "#{ENV["HOME"]}/Library/Containers/com.apple.ScreenSaver.Engine.legacyScreenSaver"
